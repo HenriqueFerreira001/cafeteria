@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title> cafeteria </title>
+</head>
+<body>
+ <Div class="caixa-video"> 
+    <video src="./videos/coffe.mp4" loop muted autoplay></video>
+    <Div class="mascara"></Div>
+ </Div>
+
+ <header>
+
+    <section>
+
+        <a>
+            <img src="./img/logo.png" alt="cafeteria">
+        </a>
+
+        <nav>
+            <a href="#">home</a>
+            <a href="#">sobre</a>
+            <a href="#"  onclick="mostrarmodal()">endereço</a> 
+            <a href="#">avaliaçoes</a>
+        </nav>
+
+    </section>
+ </header>
+
+    <section class="caixa-principal">
+        <div>
+            <h3>Code com o Melhor Café da Regiao</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid laborum, ratione aliquam recusandae amet vel maiores odit atque magni obcaecati eum id in facilis distinctio consequuntur repellendus unde maxime temporibus.</p>
+            <a class="botao-link">pague o seu agora</a>
+        </div>
+
+    </section>
+ 
+   <section class="caixa-sobre">
+    <h2 class="titulo"> <span>Sobre</span> Nós</h2>
+
+    <div class="sobre-container">
+        <div class="sobre-image">
+            <img src="./img/about-img.jpeg">
+        </div>
+
+        <div class="sobre-texto">
+            <h3>oque faz seu Café especial</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit optio minus quidem delectus ipsum reiciendis soluta atque sed nam aliquid consequuntur iusto aspernatur illo dolore, odit quisquam rerum beatae dolorem.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis nemo eaque omnis modi, quod vitae est maxime eligendi corporis repellendus odit reiciendis quibusdam nisi saepe deserunt labore! Eligendi, doloremque aspernatur.</p>
+            <a class="botao-link"> saiba mais </a>
+        </div>
+    </div>
+ </section>
+ <div class="modal">
+    <h3  class="titulo"><span>nosso</span>endereço</h3>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14817.298297721523!2d-49.619732154195255!3d-21.806386792137502!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94be45403c55ddad%3A0x268cc67b7b41bcdf!2sDoce%20Caf%C3%A9%20Cafeteria%20E%20Doceria!5e0!3m2!1spt-BR!2sbr!4v1730649696634!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> 
+ </div>
+
+ <div class="mascara-modal" onclick="escondermodal()"></div>
+
+</body>
+<script src="./scripts.js"></script>
+</html>
